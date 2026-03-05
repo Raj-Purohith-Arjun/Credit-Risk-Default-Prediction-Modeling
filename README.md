@@ -101,13 +101,13 @@ The dataset simulates LendingClub loan data with 50,000 loan records containing 
 
 The dataset exhibits moderate class imbalance with approximately 58% defaults and 42% non-defaults.
 
-![Target Distribution](reports/eda_plots/target_distribution.png)
+![Target Distribution](https://github.com/user-attachments/assets/317989d8-a15a-4ef4-980c-a29ba8d1d82f)
 
 ### Feature Correlations
 
 The correlation heatmap reveals important relationships between features:
 
-![Correlation Heatmap](reports/eda_plots/correlation_heatmap.png)
+![Correlation Heatmap](https://github.com/user-attachments/assets/a71b5a17-065b-4e4e-b421-3b79d0acc240)
 
 **Key Observations:**
 - `delinq_2yrs` shows positive correlation (0.23) with default
@@ -117,7 +117,7 @@ The correlation heatmap reveals important relationships between features:
 
 ### Default Rate Analysis by Feature Categories
 
-![Default by Features](reports/eda_plots/default_by_features.png)
+![Default by Features](https://github.com/user-attachments/assets/9c050d1d-aa22-4c19-881d-d4d0c8e041d1)
 
 **Insights:**
 - **FICO Score**: Clear inverse relationship — "fair" credit (69.1% default rate) vs "exceptional" (47.9%)
@@ -127,7 +127,7 @@ The correlation heatmap reveals important relationships between features:
 
 ### Feature Distributions by Default Status
 
-![Feature vs Default](reports/eda_plots/feature_vs_default.png)
+![Feature vs Default](https://github.com/user-attachments/assets/b71ec51e-76eb-43e7-831a-e8f8d86234ef)
 
 ---
 
@@ -186,7 +186,7 @@ Six new features were engineered to capture additional predictive signals:
 
 ### Performance Dashboard
 
-![Model Dashboard](reports/model_plots/model_dashboard.png)
+![Model Dashboard](https://github.com/user-attachments/assets/9935ac27-8270-4bda-8373-fe7a36d21a3e)
 
 ### Detailed Metrics (5-Fold CV)
 
@@ -222,7 +222,7 @@ SHAP (SHapley Additive exPlanations) analysis provides insights into feature con
 
 #### XGBoost SHAP Summary
 
-![XGBoost SHAP](reports/shap_plots/xgboost_shap_summary.png)
+![XGBoost SHAP](https://github.com/user-attachments/assets/3bf4a89e-014e-4ea5-bc22-b03f28c0e09e)
 
 #### Feature Importance Rankings
 
