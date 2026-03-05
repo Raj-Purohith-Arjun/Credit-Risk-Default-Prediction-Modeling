@@ -1,31 +1,46 @@
 {
   "logistic_regression": {
     "metrics": {
-      "accuracy": 0.687875,
-      "roc_auc": 0.756486602879676,
-      "precision": 0.7551227079185997,
-      "recall": 0.6889982876712328,
-      "f1": 0.7205324868397757
+      "accuracy": 0.6878750000000001,
+      "roc_auc": 0.7564882236235511,
+      "precision": 0.7551458362419489,
+      "recall": 0.6889554794520547,
+      "f1": 0.7205198949951457,
+      "accuracy_std": 0.003554046988997191,
+      "roc_auc_std": 0.006635206550934487,
+      "precision_std": 0.004010989620226119,
+      "recall_std": 0.0050094762658632495,
+      "f1_std": 0.003380945379903943
     },
     "path": "/home/runner/work/Credit-Risk-Default-Prediction-Modeling/Credit-Risk-Default-Prediction-Modeling/models/logistic_regression.joblib"
   },
   "random_forest": {
     "metrics": {
-      "accuracy": 0.6883999999999999,
-      "roc_auc": 0.7426256346627206,
-      "precision": 0.6999942035249149,
-      "recall": 0.8163099315068493,
-      "f1": 0.7536830080333374
+      "accuracy": 0.6888500000000001,
+      "roc_auc": 0.7489514816171627,
+      "precision": 0.7407479254359292,
+      "recall": 0.7187928082191781,
+      "f1": 0.7295902789802259,
+      "accuracy_std": 0.004645831464872569,
+      "roc_auc_std": 0.006301218007667186,
+      "precision_std": 0.004218389580019812,
+      "recall_std": 0.00649416346286259,
+      "f1_std": 0.004449468113478218
     },
     "path": "/home/runner/work/Credit-Risk-Default-Prediction-Modeling/Credit-Risk-Default-Prediction-Modeling/models/random_forest.joblib"
   },
   "xgboost": {
     "metrics": {
-      "accuracy": 0.6911750000000001,
-      "roc_auc": 0.7452295783699123,
-      "precision": 0.7128002907320302,
-      "recall": 0.7891695205479452,
-      "f1": 0.7490331884281377
+      "accuracy": 0.6837500000000001,
+      "roc_auc": 0.7466105743504675,
+      "precision": 0.7473206591291547,
+      "recall": 0.692722602739726,
+      "f1": 0.7189644823165073,
+      "accuracy_std": 0.0028284271247462126,
+      "roc_auc_std": 0.00483162972522757,
+      "precision_std": 0.0032043314836975147,
+      "recall_std": 0.00627925224257154,
+      "f1_std": 0.003278866667053885
     },
     "path": "/home/runner/work/Credit-Risk-Default-Prediction-Modeling/Credit-Risk-Default-Prediction-Modeling/models/xgboost.joblib"
   }

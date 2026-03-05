@@ -3,8 +3,12 @@ data/raw/*.csv
 data/raw/*.parquet
 data/processed/
 models/*.joblib
+
+# Generated plots at root level only
 reports/*.png
-reports/shap_plots/
+
+# Keep SHAP plots - they're important for documentation
+# reports/shap_plots/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
