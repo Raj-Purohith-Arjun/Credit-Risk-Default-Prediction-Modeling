@@ -1,0 +1,32 @@
+{
+  "logistic_regression": {
+    "metrics": {
+      "accuracy": 0.687875,
+      "roc_auc": 0.756486602879676,
+      "precision": 0.7551227079185997,
+      "recall": 0.6889982876712328,
+      "f1": 0.7205324868397757
+    },
+    "path": "/home/runner/work/Credit-Risk-Default-Prediction-Modeling/Credit-Risk-Default-Prediction-Modeling/models/logistic_regression.joblib"
+  },
+  "random_forest": {
+    "metrics": {
+      "accuracy": 0.6883999999999999,
+      "roc_auc": 0.7426256346627206,
+      "precision": 0.6999942035249149,
+      "recall": 0.8163099315068493,
+      "f1": 0.7536830080333374
+    },
+    "path": "/home/runner/work/Credit-Risk-Default-Prediction-Modeling/Credit-Risk-Default-Prediction-Modeling/models/random_forest.joblib"
+  },
+  "xgboost": {
+    "metrics": {
+      "accuracy": 0.6911750000000001,
+      "roc_auc": 0.7452295783699123,
+      "precision": 0.7128002907320302,
+      "recall": 0.7891695205479452,
+      "f1": 0.7490331884281377
+    },
+    "path": "/home/runner/work/Credit-Risk-Default-Prediction-Modeling/Credit-Risk-Default-Prediction-Modeling/models/xgboost.joblib"
+  }
+}
